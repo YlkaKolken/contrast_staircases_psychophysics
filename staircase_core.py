@@ -1,11 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Oct  8 14:15:55 2020
-
-@author: Ibrahim Hashim
-
-@github: https://github.com/Ibrahim-Hashim-Coding
-
 
 In geometric mean - one sided and add double of this
 Add fixation drift mean -> new mean calculated at beginning of trial
