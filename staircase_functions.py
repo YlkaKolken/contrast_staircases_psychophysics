@@ -1,11 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Oct  8 14:15:55 2020
 
-@author: Ibrahim Hashim
-
-@github: https://github.com/Ibrahim-Hashim-Coding
-"""
 
 ## Import libraries needed to run
 import random
