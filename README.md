@@ -1,1 +1,0 @@
-# fmri_contrast_study
