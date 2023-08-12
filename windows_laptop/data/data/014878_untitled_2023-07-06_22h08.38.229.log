@@ -1,0 +1,16 @@
+24.7008 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+26.3486 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000262B7065790>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000262B7065730>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000262B7065460>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000262BAF25430>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+26.3488 	EXP 	window1: mouseVisible = True
+26.3488 	EXP 	window1: backgroundImage = ''
+26.3489 	EXP 	window1: backgroundFit = 'none'
+26.3490 	EXP 	window1: mouseVisible = False
+26.3490 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+26.3491 	EXP 	window1: recordFrameIntervals = False
+26.5157 	EXP 	window1: recordFrameIntervals = True
+26.6970 	EXP 	Screen (0) actual frame rate measured at 60.73Hz
+26.6970 	EXP 	window1: recordFrameIntervals = False
+29.8722 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.3, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='red', units='height', win=Window(...), wrapWidth=1)
+30.3837 	EXP 	text: autoDraw = True
+36.8543 	DATA 	Keypress: right
+36.8696 	EXP 	text: autoDraw = False
+36.8921 	EXP 	window1: mouseVisible = True
