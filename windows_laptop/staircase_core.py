@@ -110,9 +110,9 @@ def run_staircase(parameters, parameter_file, last_info, start_ori_list_counter,
     ori_list_created = stf.create_orientation_list(ori_list_max, ori_list_div,
                                                    ori_list_length)
     
-    con_list_max = 0.3169
-    con_list_div = 1.26
-    con_list_length = 15
+    con_list_max = 1
+    con_list_div = 1.25
+    con_list_length = 20
     con_list_created = stf.create_contrast_list(con_list_max, con_list_div,
                                                    con_list_length)
     

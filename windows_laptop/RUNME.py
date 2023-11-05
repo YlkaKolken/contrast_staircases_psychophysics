@@ -55,7 +55,7 @@ while True:
                 p_window.close()
 
         ori_list = orientation_list_creation.create_orientation_list(22.5, 1.2, 28)
-        con_list = orientation_list_creation.create_contrast_list(1, 1.05, 28)
+        con_list = orientation_list_creation.create_contrast_list(1, 1.25, 20)
         
         ori_layout = [[sg.Radio(ori, "RADIO1", default=True)] for ori in ori_list]
         ori_layout.append([sg.Button('Submit')])
@@ -68,11 +68,26 @@ while True:
                 break
             elif ori_event == 'Submit':
                 ori_c = 0
-                con_c = 0
                 for idx in range(len(ori_values)):
                     if ori_values[idx] == True:
                         ori_c = idx
                 ori_window.close()
+    
+        con_layout = [[sg.Radio(con, "RADIO1", default=True)] for con in con_list]
+        con_layout.append([sg.Button('Submit')])
+        con_layout.insert(0, [sg.Text('Choose the starting contrast for the participant')])
+        con_window = sg.Window('Select Contrast Value', con_layout)
+        
+        while True:
+            con_event, con_values = con_window.read()
+            if con_event == sg.WIN_CLOSED or con_event=="Exit":
+                break
+            elif con_event == 'Submit':
+                con_c = 0
+                for idx in range(len(con_values)):
+                    if con_values[idx] == True:
+                        con_c = idx
+                con_window.close()
                 
         size1 = 80
         size2 = 1
